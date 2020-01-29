@@ -1,0 +1,10 @@
+import random
+a = random.randint(0,100)
+b = 0
+while a != b:
+    b = int(input("Adauga numar:"))
+    if a > b:
+        print("mai mare")
+    else :
+        print("mai mic")
+print("Corect!")
